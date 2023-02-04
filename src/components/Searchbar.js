@@ -19,8 +19,8 @@ export default function Searchbar({setIpAddress}) {
   return (
       <form onSubmit={e => search(e)}>
           <input onChange={e => handleChange(e)} type="text" placeholder="Search for any IP address or domain" />
-          <button type="submit" role="button">
-            <img src={ArrowIcon} alt='arrow-icon' />
+          <button type="submit" id="searchButton">
+            <img src={ArrowIcon} alt='arrow icon' />
           </button>
       </form> 
   )
